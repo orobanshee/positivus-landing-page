@@ -4,6 +4,8 @@
 
     position: relative;
 
+    border-radius: var(--border-radius-small);
+
     @include hover {
     background-color: var(--color-accent);
     }
