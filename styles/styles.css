@@ -462,4 +462,21 @@ h4 {
   flex-direction: column;
   row-gap: 30px;
   min-height: 10vh;
+}
+
+.section {
+  padding-block: var(--section-padding-y);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--section-padding-y);
+}
+.hero__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
 }/*# sourceMappingURL=styles.css.map */
