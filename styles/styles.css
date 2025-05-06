@@ -467,6 +467,9 @@ h4 {
 .section {
   padding-block: var(--section-padding-y);
 }
+.section--hidden-x {
+  overflow-x: hidden;
+}
 
 .hero {
   display: flex;
